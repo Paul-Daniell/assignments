@@ -1,0 +1,85 @@
+// Google font
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+// Variables
+$netnix-red: #e52214;
+$netnix-black: #141414;
+$netnix-white: #f3f3f3;
+
+body {
+  background-color: $netnix-black;
+  font-family: "Noto Sans";
+  color: $netnix-white;
+}
+
+#img {
+  width: 100px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-menu ul {
+  display: flex;
+  justify-content: space-between;
+
+  li {
+    list-style: none;
+  }
+}
+.iframe {
+  display: flex;
+}
+iframe {
+  border-radius: 10px;
+}
+.films ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 15%;
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  li {
+    list-style: none;
+  }
+
+  img {
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+  }
+
+  img:hover {
+    border: 3px solid $netnix-white;
+  }
+}
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 10px;
+}
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+::-webkit-scrollbar {
+  height: 15px;
+}
+::-webkit-scrollbar-track {
+  background: $netnix-red;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+  background: $netnix-black;
+  border-radius: 100vw;
+  border: 0.3px solid $netnix-red;
+}
+
+@import "./grid";

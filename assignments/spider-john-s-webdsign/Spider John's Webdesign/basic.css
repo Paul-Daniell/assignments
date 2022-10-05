@@ -1,0 +1,600 @@
+.menu :nth-child(2) {
+  padding: 0 40px;
+}
+
+.content {
+  border: 3px dashed #9371bd;
+  background-color: #f1a839;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.footer {
+  background-color: #7b31d4;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.grid-page > div {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+body {
+  background-image: url(images/stickers-spinnenweb-spinnenweb.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: scroll;
+}
+.image-container-logo {
+  width: 280px;
+  height: 200px;
+  background-image: url(images/spider-john-logo-trans.png);
+  background-size: 98%;
+  background-repeat: no-repeat;
+  margin-bottom: -40px;
+}
+
+.image-container-john {
+  width: 300px;
+  height: 250px;
+  background-image: url(images/john-spider-card.png);
+  background-size: 98%;
+  background-repeat: no-repeat;
+}
+.image-container-john:hover {
+  width: 300px;
+  height: 250px;
+  background-image: url(images/john-spider-card-hover.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.image-container-john-intro {
+  width: 180px;
+  height: 180px;
+  background-image: url(images/spider-john-intro.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.image-container-archie {
+  width: 300px;
+  height: 250px;
+  background-image: url(images/archi-tect-card.png);
+  background-size: 98%;
+  background-repeat: no-repeat;
+}
+.image-container-archie:hover {
+  width: 300px;
+  height: 250px;
+  background-image: url(images/archi-tect-card-hover.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.image-container-archie-intro {
+  width: 180px;
+  height: 180px;
+  background-image: url(images/archie-tect-intro.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.image-container-desi {
+  width: 300px;
+  height: 250px;
+  background-image: url(images/desi-gn-card.png);
+  background-size: 98%;
+  background-repeat: no-repeat;
+}
+.image-container-desi:hover {
+  width: 300px;
+  height: 250px;
+  background-image: url(images/desi-gn-card-hover.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.image-container-desi-intro {
+  width: 180px;
+  height: 180px;
+  background-image: url(images/desi-gn-intro.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/*Fonts & Heading tags*/
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+  color: #000;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #222;
+  text-align: center;
+}
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  color: #222;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #9371bd;
+  text-decoration: none;
+}
+a:hover {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #7b31d4;
+  text-decoration: none;
+}
+.menu {
+  border: 1px solid #9371bd;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  margin-left: -5px;
+}
+
+/*@media*/
+/*768*/
+@media (min-width: 768px) {
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #000;
+  }
+}
+@media (min-width: 768px) {
+  h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #222;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #222;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    border: 2px dashed #9371bd;
+    background-color: #f1a839;
+    color: #fff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768) {
+  .footer {
+    background-color: #7b31d4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-container-john {
+    width: 400px;
+    height: 310px;
+    background-image: url(images/john-spider-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .image-container-john:hover {
+    width: 400px;
+    height: 310px;
+    background-image: url(images/john-spider-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .image-container-john-intro {
+    width: 220px;
+    height: 220px;
+    background-image: url(images/spider-john-intro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-container-archie {
+    width: 400px;
+    height: 310px;
+    background-image: url(images/archi-tect-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .image-container-archie:hover {
+    width: 400px;
+    height: 310px;
+    background-image: url(images/archi-tect-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .image-container-archie-intro {
+    width: 220px;
+    height: 220px;
+    background-image: url(images/archie-tect-intro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .image-container-desi {
+    width: 400px;
+    height: 310px;
+    background-image: url(images/desi-gn-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .image-container-desi:hover {
+    width: 400px;
+    height: 310px;
+    background-image: url(images/desi-gn-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .image-container-desi-intro {
+    width: 220px;
+    height: 220px;
+    background-image: url(images/desi-gn-intro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .menu {
+    border: 1px solid #9371bd;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.3rem;
+    margin-left: -5px;
+  }
+}
+/*992*/
+@media (min-width: 992px) {
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.8rem;
+    color: #000;
+  }
+}
+@media (min-width: 992px) {
+  h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #222;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #222;
+  }
+}
+@media (min-width: 992px) {
+  p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 992px) {
+  .content {
+    border: 2px dashed #9371bd;
+    background-color: #f1a839;
+    color: #fff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+@media (min-width: 992px) {
+  .footer {
+    background-color: #7b31d4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-john {
+    width: 320px;
+    height: 220px;
+    background-image: url(images/john-spider-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-john:hover {
+    width: 320px;
+    height: 220px;
+    background-image: url(images/john-spider-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-john-intro {
+    width: 220px;
+    height: 220px;
+    background-image: url(images/spider-john-intro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-archie {
+    width: 320px;
+    height: 220px;
+    background-image: url(images/archi-tect-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-archie:hover {
+    width: 320px;
+    height: 220px;
+    background-image: url(images/archi-tect-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-archie-intro {
+    width: 220px;
+    height: 220px;
+    background-image: url(images/archie-tect-intro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-desi {
+    width: 320px;
+    height: 220px;
+    background-image: url(images/desi-gn-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-desi:hover {
+    width: 320px;
+    height: 220px;
+    background-image: url(images/desi-gn-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .image-container-desi-intro {
+    width: 220px;
+    height: 220px;
+    background-image: url(images/desi-gn-intro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .menu {
+    border: 1px solid #9371bd;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-left: -5px;
+  }
+}
+/*1024*/
+@media (min-width: 1024px) {
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.8rem;
+    color: #000;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #222;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #222;
+  }
+}
+@media (min-width: 1024px) {
+  p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .content {
+    border: 2px dashed #9371bd;
+    background-color: #f1a839;
+    color: #fff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+@media (min-width: 1024px) {
+  .footer {
+    background-color: #7b31d4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+@media (min-width: 1024px) {
+  .image-container-john {
+    width: 335px;
+    height: 220px;
+    background-image: url(images/john-spider-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .image-container-john:hover {
+    width: 335px;
+    height: 220px;
+    background-image: url(images/john-spider-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .image-container-archie {
+    width: 335px;
+    height: 220px;
+    background-image: url(images/archi-tect-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .image-container-archie:hover {
+    width: 335px;
+    height: 220px;
+    background-image: url(images/archi-tect-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .image-container-desi {
+    width: 335px;
+    height: 220px;
+    background-image: url(images/desi-gn-card.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .image-container-desi:hover {
+    width: 335px;
+    height: 220px;
+    background-image: url(images/desi-gn-card-hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .menu {
+    border: 1px solid #9371bd;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-left: -5px;
+  }
+}
+/*form-css*/
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="url"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

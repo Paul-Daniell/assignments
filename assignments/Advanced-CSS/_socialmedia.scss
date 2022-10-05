@@ -1,0 +1,47 @@
+.social-media-container {
+  position: fixed;
+  top: 50%;
+  left: calc(100% - 60px);
+  list-style-type: none;
+  padding: 0;
+  transform: translateY(-50%);
+  min-width: 250px;
+}
+
+.social-media {
+  align-items: center;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-media:hover {
+  transform: translateX(calc(-100% + 60px));
+}
+.social-media i {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 60px;
+  transform: rotate(0deg);
+}
+
+.social-media a {
+  color: #fff;
+  padding: 0 10px;
+}
+.social-media.twitter {
+  background-color: $social-twitter;
+}
+.social-media.linkedin {
+  background-color: $social-linkedin;
+}
+.social-media.blog {
+  background-color: $social-blog;
+}
+.social-media.facebook {
+  background-color: $social-facebook;
+}
+.social-media.github {
+  background-color: $social-github;
+}

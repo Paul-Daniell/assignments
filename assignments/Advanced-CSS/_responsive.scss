@@ -1,0 +1,112 @@
+@media screen and (max-width: 969px) {
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+
+    .portfolio-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media screen and (max-width: 649px) {
+  header {
+    .advanced-logo img {
+      width: 400px;
+      padding-top: 20px;
+      margin-top: -10px;
+    }
+  }
+  .container {
+    @include flex-center();
+    flex-direction: column;
+    padding-top: 200px;
+    width: 100%;
+
+    .testimonial-header {
+      width: $media-medium;
+      height: 425px;
+      line-height: 50px;
+    }
+    .testimonial-photo {
+      width: $media-medium;
+    }
+    .photo {
+      width: 150px;
+    }
+    .testimonial-footer {
+      width: $media-medium;
+      height: 100px;
+      line-height: 2px;
+    }
+    .p1 {
+      font-size: 1.1rem;
+    }
+    .p2 {
+      font-size: 1.3rem;
+      letter-spacing: 4px;
+      text-transform: Uppercase;
+    }
+    .p3 {
+      font-size: 1.1rem;
+    }
+  }
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+
+    .portfolio-content {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+@media screen and (max-width: 419px) {
+  header {
+    .advanced-logo img {
+      width: $media-small;
+      padding-top: 20px;
+      margin-top: 12px;
+    }
+  }
+  .container {
+    @include flex-center();
+    flex-direction: column;
+    padding-top: 200px;
+    width: 100%;
+
+    .testimonial-header {
+      width: $media-small;
+      height: 350px;
+      line-height: 40px;
+    }
+    .testimonial-photo {
+      width: $media-small;
+    }
+    .photo {
+      width: 125px;
+    }
+    .testimonial-footer {
+      width: $media-small;
+      height: 80px;
+      line-height: 2px;
+    }
+    .p1 {
+      font-size: 1rem;
+    }
+    .p2 {
+      font-size: 1.1rem;
+      letter-spacing: 4px;
+      text-transform: Uppercase;
+    }
+    .p3 {
+      font-size: 0.8rem;
+    }
+  }
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+
+    .portfolio-content {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

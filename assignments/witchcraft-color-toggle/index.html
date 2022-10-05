@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Witchcraft Color Toggle</title>
+    <link rel="stylesheet" href="reset-style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <script defer src="sidebar.js"></script>
+  </head>
+  <body>
+    <nav class="nav-main">
+      <div class="btn-toggle-nav" onmouseover="toggleNav()"></div>
+      <div class="header">
+        <h1>Welcome Witches & Wizards</h1>
+      </div>
+    </nav>
+
+    <aside class="nav-sidebar">
+      <ul>
+        <li>
+          <span class="menu-titel"
+            >Brews <br /><br />
+            <p>
+              Click "On" to brew, click "Off" before you continue to the next
+              color
+            </p></span
+          >
+        </li>
+        <br /><br /><br />
+        <li class="redbox">
+          <p class="redletter">Red</p>
+          <input type="checkbox" class="checkbox" id="chk1" />
+          <label class="label" for="chk1"
+            ><p class="on">on</p>
+            <p class="off">off</p>
+            <div class="ball"></div
+          ></label>
+        </li>
+        <li class="greenbox">
+          <p class="greenletter">Green</p>
+          <input type="checkbox" class="checkbox" id="chk2" />
+          <label class="label" for="chk2">
+            <p class="on">on</p>
+            <p class="off">off</p>
+            <div class="ball"></div
+          ></label>
+        </li>
+        <li class="bluebox">
+          <p class="blueletter">Blue</p>
+          <input type="checkbox" class="checkbox" id="chk3" />
+          <label class="label" for="chk3"
+            ><p class="on">on</p>
+            <p class="off">off</p>
+            <div class="ball"></div
+          ></label>
+        </li>
+        <li class="orangebox">
+          <p class="orangeletter">Orange</p>
+          <input type="checkbox" class="checkbox" id="chk4" />
+          <label class="label" for="chk4"
+            ><p class="on">on</p>
+            <p class="off">off</p>
+            <div class="ball"></div
+          ></label>
+        </li>
+        <li class="pinkbox">
+          <p class="pinkletter">Pink</p>
+          <input type="checkbox" class="checkbox" id="chk5" />
+          <label class="label" for="chk5"
+            ><p class="on">on</p>
+            <p class="off">off</p>
+            <div class="ball"></div
+          ></label>
+        </li>
+      </ul>
+    </aside>
+    <div class="message">
+      Welcome witches and wizards!
+      <br />
+      Open the book in the left upper corner and brew your potion!
+    </div>
+    <div class="container">
+      <img src="img/color-witch.png" alt="The color toggel witch" />
+    </div>
+    <div class="number-message">
+      Toggle "on" to get your brew and "off" to continue!
+    </div>
+  </body>
+</html>

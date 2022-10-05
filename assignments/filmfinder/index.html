@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netnix</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/630ddcc12d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./JS/moviebox.js"></script>
+    <script defer src="./JS/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="logo">
+        <a class="netnix-logo" href="index.html">
+          <img id="img" src="img/Netnix-Logo-small.png" alt="" />
+        </a>
+      </header>
+      <nav class="primary-menu">
+        <ul>
+          <li>
+            <input
+              type="radio"
+              name="film-filter"
+              value="latest"
+              id="new-movies"
+            />
+            <label for="latest">Nieuwste films | 2014 of nieuwer</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="film-filter"
+              value="avenger"
+              id="avenger-movies"
+            />
+            <label for="avenger">Avenger films</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="film-filter"
+              value="x-men"
+              id="x-men-movies"
+            />
+            <label for="x-men">X-Men films</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="film-filter"
+              value="princess"
+              id="princess-movies"
+            />
+            <label for="princess">Princess films</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="film-filter"
+              value="batman"
+              id="batman-movies"
+            />
+            <label for="batman">Batman films</label>
+          </li>
+        </ul>
+      </nav>
+      <nav class="secondary-menu">
+        <p>Werkt dit</p>
+      </nav>
+      <div class="display">
+        <p>Werkt dit</p>
+      </div>
+      <div class="iframe">
+        <iframe
+          width="860"
+          height="450"
+          src="https://www.youtube.com/embed/YJS3KtriHMM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <main class="films">
+        <ul id="movie-box" class="snaps-inline"></ul>
+      </main>
+      <footer class="footer">
+        <p>Werkt dit</p>
+      </footer>
+    </div>
+  </body>
+</html>

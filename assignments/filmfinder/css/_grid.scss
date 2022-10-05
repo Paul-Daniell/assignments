@@ -1,0 +1,32 @@
+.logo {
+  grid-area: logo;
+}
+.primary-menu {
+  grid-area: nav;
+}
+.secondary-menu {
+  grid-area: search;
+}
+.display {
+  grid-area: display;
+}
+.iframe {
+  grid-area: iframe;
+}
+.films {
+  grid-area: main;
+}
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "logo nav nav nav nav . search search"
+    "display display display display iframe iframe iframe iframe"
+    "main main main main main main main main"
+    "footer footer footer footer footer footer footer footer";
+}

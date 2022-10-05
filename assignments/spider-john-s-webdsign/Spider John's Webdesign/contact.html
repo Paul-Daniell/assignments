@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spider John's Webdesign</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="basic.css" />
+  </head>
+  <body>
+    <div class="grid-page">
+      <div class="header">
+        <a href="index.html"><div class="image-container-logo"></div></a>
+      </div>
+      <div class="menu">
+        <div><a href="index.html">Home</a></div>
+        <div><a href="ons-team.html">Ons Team</a></div>
+        <div><a href="contact.html">Contact</a></div>
+      </div>
+      <div class="box-header-tags">
+        <h1>Contact</h1>
+        <p></p>
+      </div>
+      <div class="box">
+        <div><h2>Bezoek adres</h2></div>
+        <p>Plafondhoek 15</p>
+        <p>1111 BC World Wide Web</p>
+      </div>
+      <hr />
+      <div class="content">
+        <div>
+          <h1>Offerte aanvraag!</h1>
+          <p>Vul het onderstaande formulier in en wij verzorgen uw offerte</p>
+        </div>
+        <form enctype="multipart/form-data" method="POST" name="recepren">
+          <input type="hidden" name="form-name" value="recepren" />
+          <p>
+            <label>Naam: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Telefoonnummer: <input type="tel" name="tel" /></label>
+          </p>
+
+          <p>Wat is je favorite stijl?</p>
+          <p></p>
+
+          <input
+            type="checkbox"
+            id="Oosters"
+            name="fav_language"
+            value="Oosters"
+          />
+          <label for="Oosters">Oosters</label><br />
+
+          <input
+            type="checkbox"
+            id="Westers"
+            name="fav_language"
+            value="Westers"
+          />
+          <label for="Westers">Westers</label><br />
+
+          <input
+            type="checkbox"
+            id="Baroque"
+            name="fav_language"
+            value="Baroque"
+          />
+          <label for="Baroque">Baroque</label>
+          <p>Wat is je favorite kleur</p>
+          <p>
+            <label
+              >Klik op het palet: <input type="color" name="color picker"
+            /></label>
+          </p>
+          <p>
+            <label
+              >Vertel iets over de locatie waar je web komt:
+              <textarea name="message"></textarea>
+            </label>
+          </p>
+          <p>Upload een foto:</p>
+          <p>
+            <label> <input type="file" name="file Upload" /></label>
+          </p>
+
+          <p>
+            <button type="reset">Reset formulier</button>
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="Ik ben geen mens"
+              name="fav_language"
+              value="Ik ben geen mens"
+            />
+            <label for="Ik ben geen mens">Ik ben geen mens</label><br />
+          </p>
+          <p>
+            <button type="submit">Verstuur formulier</button>
+          </p>
+        </form>
+      </div>
+      <div class="footer">
+        <div><p>Spider John's Webdesign © 2022</p></div>
+        <div><p>Bezoek adres: plafondhoek 15 1111 BC World Wide Web</p></div>
+      </div>
+    </div>
+  </body>
+</html>

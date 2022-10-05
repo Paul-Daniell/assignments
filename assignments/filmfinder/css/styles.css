@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+  font-family: "Noto Sans";
+  color: #f3f3f3;
+}
+
+#img {
+  width: 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.primary-menu ul li {
+  list-style: none;
+}
+
+.iframe {
+  display: flex;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.films ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 15%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+.films ul li {
+  list-style: none;
+}
+.films ul img {
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+}
+.films ul img:hover {
+  border: 3px solid #f3f3f3;
+}
+
+.snaps-inline {
+  -ms-scroll-snap-type: inline mandatory;
+      scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 10px;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+::-webkit-scrollbar {
+  height: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e52214;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #141414;
+  border-radius: 100vw;
+  border: 0.3px solid #e52214;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.primary-menu {
+  grid-area: nav;
+}
+
+.secondary-menu {
+  grid-area: search;
+}
+
+.display {
+  grid-area: display;
+}
+
+.iframe {
+  grid-area: iframe;
+}
+
+.films {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "logo nav nav nav nav . search search" "display display display display iframe iframe iframe iframe" "main main main main main main main main" "footer footer footer footer footer footer footer footer";
+}/*# sourceMappingURL=styles.css.map */

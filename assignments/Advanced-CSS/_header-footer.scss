@@ -1,0 +1,28 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 20px;
+  background-color: $purple;
+  height: 120px;
+  box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  .advanced-logo img {
+    width: 500px;
+    padding-top: 20px;
+
+    margin-top: -30px;
+  }
+}
+
+/* Footer */
+#footer {
+  @include flex-center();
+  background-color: $purple;
+  margin-top: 50px;
+  height: 100px;
+  color: $white;
+  padding-left: 20px;
+}
