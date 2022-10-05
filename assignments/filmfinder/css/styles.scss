@@ -35,6 +35,7 @@ body {
 }
 .iframe {
   display: flex;
+  justify-content: end;
 }
 iframe {
   border-radius: 10px;
@@ -83,3 +84,4 @@ iframe {
 }
 
 @import "./grid";
+@import "./_slider.scss";
