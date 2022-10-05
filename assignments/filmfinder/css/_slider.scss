@@ -60,6 +60,9 @@
 #radio4:checked ~ .first {
   margin-left: -60%;
 }
+#radio5:checked ~ .first {
+  margin-left: -80%;
+}
 
 .nav-auto {
   position: absolute;
@@ -87,5 +90,8 @@
   background-color: transparent;
 }
 #radio4:checked ~ .nav-auto .a-b4 {
+  background-color: transparent;
+}
+#radio5:checked ~ .nav-auto .a-b5 {
   background-color: transparent;
 }
