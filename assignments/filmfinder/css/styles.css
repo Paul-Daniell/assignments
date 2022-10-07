@@ -81,6 +81,23 @@ iframe {
   border: 0.3px solid #e52214;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  height: 60px;
+  margin-left: 5px;
+  border-top: 4px solid #f3f3f3;
+}
+
+.footer-menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+}
+.footer-menu ul li {
+  list-style-type: none;
+}
+
 .logo {
   grid-area: logo;
 }

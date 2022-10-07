@@ -83,6 +83,24 @@ iframe {
   border: 0.3px solid $netnix-red;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  height: 60px;
+  margin-left: 5px;
+  border-top: 4px solid $netnix-white;
+}
+
+.footer-menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+
+  li {
+    list-style-type: none;
+  }
+}
+
 @import "./grid";
 @import "./_slider.scss";
 @import "./searchbar";

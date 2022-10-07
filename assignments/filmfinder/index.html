@@ -11,16 +11,20 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./JS/moviebox.js"></script>
-    <script defer src="./JS/main.js"></script>
     <script defer src="./js/slider.js"></script>
+    <script defer src="./JS/main.js"></script>
+    <script defer src="./js/searchBar.js"></script>
   </head>
   <body>
     <div class="container">
+      <!-- Start header -->
       <header class="logo">
         <a class="netnix-logo" href="index.html">
           <img id="img" src="img/Netnix-Logo-small.png" alt="" />
         </a>
       </header>
+      <!-- End header -->
+      <!-- Start primary menu -->
       <nav class="primary-menu">
         <ul>
           <li>
@@ -70,10 +74,12 @@
           </li>
         </ul>
       </nav>
+      <!-- End primary menu -->
+      <!-- Start secondary menu -->
       <nav class="secondary-menu">
         <div class="search-bar">
           <input
-            type="text"
+            type="search"
             class="search-bar__input"
             placeholder="vind je film hier"
             aria-label="search"
@@ -83,6 +89,8 @@
           </button>
         </div>
       </nav>
+      <!-- End secondary menu -->
+      <!-- Start display and iframe -->
       <section class="display">
         <div class="slider">
           <div class="slide">
@@ -141,12 +149,67 @@
           allowfullscreen
         ></iframe>
       </div>
+      <!-- End display and iframe -->
+      <!-- Start movie list -->
       <main class="films">
         <ul id="movie-box" class="snaps-inline"></ul>
       </main>
+      <!-- End movie list -->
+      <!-- Start footer -->
       <footer class="footer">
-        <p>Werkt dit</p>
+        <img src="img/logo-klein.png" alt="" />
+        <p>copyright © 2022</p>
+        <nav class="footer-menu">
+          <ul>
+            <li>
+              <input
+                type="radio"
+                name="film-filter"
+                value="latest"
+                id="new-movies"
+              />
+              <label for="latest">Nieuwste films | 2014 of nieuwer</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="film-filter"
+                value="avenger"
+                id="avenger-movies"
+              />
+              <label for="avenger">Avenger films</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="film-filter"
+                value="x-men"
+                id="x-men-movies"
+              />
+              <label for="x-men">X-Men films</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="film-filter"
+                value="princess"
+                id="princess-movies"
+              />
+              <label for="princess">Princess films</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="film-filter"
+                value="batman"
+                id="batman-movies"
+              />
+              <label for="batman">Batman films</label>
+            </li>
+          </ul>
+        </nav>
       </footer>
+      <!-- End footer -->
     </div>
   </body>
 </html>
