@@ -19,12 +19,10 @@ body {
   justify-content: center;
 }
 
-.primary-menu ul {
+.primary-menu {
   display: flex;
   justify-content: space-between;
-}
-.primary-menu ul li {
-  list-style: none;
+  align-items: center;
 }
 
 .iframe {
@@ -34,6 +32,8 @@ body {
 
 iframe {
   border-radius: 10px;
+  width: 860px;
+  height: 450px;
 }
 
 .films ul {
@@ -89,13 +89,11 @@ iframe {
   border-top: 4px solid #f3f3f3;
 }
 
-.footer-menu ul {
+.footer-menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-left: 250px;
-}
-.footer-menu ul li {
-  list-style-type: none;
 }
 
 .logo {
@@ -255,7 +253,6 @@ iframe {
 .search-bar {
   border: 2px solid #e52214;
   display: flex;
-  margin-top: 5px;
   border-radius: 5px;
   height: 35px;
   width: 35px;

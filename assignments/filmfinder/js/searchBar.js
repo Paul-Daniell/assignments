@@ -1,18 +1,18 @@
 // search-bar
 
 const searchBar = document.querySelector(".search-bar__input");
-const getMovies = document.getElementsByTagName("li");
-let removeSearch = document.querySelector("#movie-box");
+const getMovies = document.querySelectorAll("li");
+const removeSearch = document.querySelector("#movie-box");
 
 const searchItems = (e) => {
   const { value } = e.target;
-  const searchMovie = value.toLowerCase();
-  for (const nameMovie of getMovies) {
-    let name = nameMovie.textContent.toLowerCase();
+  const searchMovie = value.toUpperCase();
+  for (const movieName of getMovies) {
+    let name = movieName.textContent.toUpperCase();
     if (name.includes(searchMovie)) {
-      nameMovie.style.display = "inline";
+      movieName.style.display = "inline";
     } else {
-      nameMovie.style.display = "none";
+      movieName.style.display = "none";
     }
   }
 };

@@ -25,13 +25,10 @@ body {
   justify-content: center;
 }
 
-.primary-menu ul {
+.primary-menu {
   display: flex;
   justify-content: space-between;
-
-  li {
-    list-style: none;
-  }
+  align-items: center;
 }
 .iframe {
   display: flex;
@@ -39,6 +36,8 @@ body {
 }
 iframe {
   border-radius: 10px;
+  width: 860px;
+  height: 450px;
 }
 .films ul {
   display: grid;
@@ -91,14 +90,11 @@ iframe {
   border-top: 4px solid $netnix-white;
 }
 
-.footer-menu ul {
+.footer-menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-left: 250px;
-
-  li {
-    list-style-type: none;
-  }
 }
 
 @import "./grid";
