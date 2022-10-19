@@ -8,7 +8,7 @@ const searchItems = (e) => {
   const { value } = e.target;
   const searchMovie = value.toUpperCase();
   for (const movieName of getMovies) {
-    let name = movieName.textContent.toUpperCase();
+    let name = movieName.childNodes[0].childNodes[0].alt.toUpperCase();
     if (name.includes(searchMovie)) {
       movieName.style.display = "inline";
     } else {

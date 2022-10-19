@@ -96,6 +96,10 @@ iframe {
   margin-left: 250px;
 }
 
+.footer-logo {
+  width: 80%;
+}
+
 .logo {
   grid-area: logo;
 }
