@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f16529;
+  color: #f3f3f3;
+  font-family: "poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+  border-radius: 10px;
+}
+
+form button {
+  color: #e44d26;
+  background: #f3f3f3;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+form button:hover {
+  background: #e44d26;
+  color: #f3f3f3;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+.todo {
+  margin: 0.5rem;
+  background: #f3f3f3;
+  border-radius: 5px;
+  color: #696969;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 500ms ease;
+}
+
+.trash-btn,
+.complete-btn {
+  background: #e44d26;
+  color: #f3f3f3;
+  font-size: 1rem;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background: #696969;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: #02c502;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
