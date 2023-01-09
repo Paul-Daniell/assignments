@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #393939;
+  color: #f3f3f3;
+  font-family: "poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: #f3f3f3;
+  border: 1px solid #06b815;
+}
+form button {
+  color: #fff;
+  background: #393939;
+  border: 1px solid #06b815;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+form button:hover {
+  color: #f3f3f3;
+  background: #06b815;
+}
+
+.todo-container {
+  text-align: center;
+  min-width: 310px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.todo-container .todo-list {
+  list-style: none;
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 10px;
+}
+.todo-container .todo-list .list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.todo-container .todo-list .list__item:last-child {
+  border-bottom: 1px solid #06b815;
+}
+.todo-container .todo-list .list__item--taskValue {
+  width: 100%;
+  background-color: #fff;
+  height: 30px;
+  border: none;
+  margin: 5px;
+  padding-left: 5px;
+  font-size: 1.2em;
+}
+.todo-container .todo-list .list__item--trash {
+  height: 50px;
+  width: auto;
+}
+
+.checked {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
